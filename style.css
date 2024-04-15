@@ -1,0 +1,35 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+h1{
+    display: block;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(128, 55, 42);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 10px;
+    box-shadow: 5px 6px rgba(87, 35, 25, 0.363);
+}
+.card a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 10px;
+    background-color: rgb(199, 60, 60);
+    margin: 0px 10px;
+    font-size: 20px;
+    position: relative;
+}
+.card h2{
+    margin: 15px 10px 20px 10px;
+    color: white;
+    font-weight: 550;
+}
